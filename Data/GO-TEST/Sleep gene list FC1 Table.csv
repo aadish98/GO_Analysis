@@ -1,0 +1,27 @@
+﻿ext_gene,gene_id,frequency,is_cycling,ZT_cyclers,sleep_corr_exps,wake_corr_exps,Baseline,MechSD3,MechSD6,MechSD12,R85C10>TrpA1,R23E10>ChR,THIP,flybase_gene_id
+CG44195,FBgn0265084,2,FALSE,-,"MechSD6,
+R23E10>ChR",-,"Peak=0, log2b=1.272, qval=0.1957",qval=0.3125,-1.958,-0.814,qval=0.5233,-1.483,qval=0.6373,FBgn0265084
+CG42392,FBgn0259738,2,FALSE,-,"MechSD6,
+R23E10>ChR",-,"Peak=4, log2b=0.825, qval=0.1508",qval=0.4096,-1.847,qval=0.2919,qval=0.4683,-1.082,qval=0.8036,FBgn0259738
+CG8958,FBgn0030725,2,TRUE,Baseline,MechSD6,-,"Peak=4, log2b=1.088",qval=0.1644,-1.079,qval=0.2439,qval=0.7872,qval=0.8143,qval=1.0,FBgn0030725
+Achl,FBgn0033936,2,TRUE,Baseline,MechSD6,-,"Peak=20, log2b=5.087",qval=0.9236,-1.495,qval=0.2659,qval=0.4661,qval=0.4477,qval=1.0,FBgn0033936
+CG46311,FBgn0284227,2,FALSE,-,"MechSD6,
+MechSD12",-,"Peak=4, log2b=NA, qval=0.2248",qval=0.4494,-5.747,-5.761,qval=0.626,-,-,FBgn0284227
+Nepl15,FBgn0039024,2,FALSE,-,"MechSD6,
+R85C10>TrpA1",-,"Peak=0, log2b=2.908, qval=1.0",qval=0.9969,-1.631,qval=0.266,-2.475,qval=0.9309,qval=0.5117,FBgn0039024
+mt:ATPase8,FBgn0013673,2,FALSE,-,"MechSD3,
+MechSD6",-,"Peak=12, log2b=1.833, qval=0.6581",-1.347,-1.07,-0.889,qval=0.7753,-,-,FBgn0013673
+clos,FBgn0261016,2,FALSE,-,"MechSD6,
+MechSD12",-,"Peak=0, log2b=0.774, qval=0.9349",qval=0.3857,-1.028,-1.055,qval=0.9583,qval=1.0,qval=1.0,FBgn0261016
+Tie,FBgn0014073,2,FALSE,-,"MechSD6,
+R85C10>TrpA1",-,"Peak=12, log2b=3.048, qval=0.5169",qval=0.8808,-3.052,qval=0.9389,-2.235,qval=0.2155,qval=1.0,FBgn0014073
+CG15186,FBgn0037448,2,FALSE,-,"MechSD6,
+R85C10>TrpA1",-,"Peak=0, log2b=2.206, qval=1.0",qval=0.6796,-1.532,qval=0.0749,-1.146,qval=0.763,qval=0.4088,FBgn0037448
+CG43789,FBgn0264330,2,FALSE,-,"MechSD6,
+R23E10>ChR",-,"Peak=0, log2b=0.747, qval=0.2909",qval=0.2469,-1.354,qval=0.1897,qval=0.6646,-1.256,qval=1.0,FBgn0264330
+CG13054,FBgn0036584,2,TRUE,Baseline,R85C10>TrpA1,-,"Peak=12, log2b=1.196",qval=0.564,qval=0.8428,qval=0.6852,-1.923,qval=0.5745,qval=1.0,FBgn0036584
+cher,FBgn0014141,2,TRUE,Baseline,R85C10>TrpA1,-,"Peak=4, log2b=2.275",qval=0.1787,0.706,qval=0.4948,-3.13,qval=0.9284,qval=1.0,FBgn0014141
+Dhc98D,FBgn0013813,2,TRUE,Baseline,MechSD6,-,"Peak=12, log2b=1.34",qval=0.537,-1.063,qval=0.6138,qval=0.5404,qval=0.4289,qval=1.0,FBgn0013813
+Fbp1,FBgn0000639,2,TRUE,Baseline,THIP,-,"Peak=16, log2b=3.534",-,-,-,-,qval=1.0,-4.287,FBgn0000639
+sas,FBgn0002306,2,FALSE,-,"MechSD6,
+R85C10>TrpA1",-,"Peak=12, log2b=4.174, qval=1.0",qval=0.906,-3.682,qval=0.3897,-3.4,qval=0.2803,qval=0.9113,FBgn0002306

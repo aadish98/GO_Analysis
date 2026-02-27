@@ -1,0 +1,5 @@
+__pycache__/
+*.pyc
+
+# Generated validation outputs
+Data/GO-TEST/GO_Analysis/

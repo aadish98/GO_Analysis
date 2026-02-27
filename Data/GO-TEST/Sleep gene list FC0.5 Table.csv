@@ -1,0 +1,202 @@
+﻿ext_gene,gene_id,frequency,is_cycling,ZT_cyclers,sleep_corr_exps,wake_corr_exps,Baseline,MechSD3,MechSD6,MechSD12,R85C10>TrpA1,R23E10>ChR,THIP,flybase_gene_id
+snu,FBgn0039594,3,FALSE,-,"MechSD6,
+MechSD12,
+R23E10>ChR",-,"Peak=20, log2b=3.714, qval=0.7167",qval=0.7848,-0.819,-0.808,qval=0.8721,-0.51,qval=0.6806,FBgn0039594
+VGlut,FBgn0031424,3,FALSE,-,"MechSD3,
+MechSD6,
+MechSD12",-,"Peak=0, log2b=1.377, qval=0.2662",-0.85,-1.862,-0.791,qval=0.2077,qval=0.0692,qval=0.8026,FBgn0031424
+CG44195,FBgn0265084,3,FALSE,-,"MechSD6,
+MechSD12,
+R23E10>ChR",-,"Peak=0, log2b=1.272, qval=0.1957",qval=0.3125,-1.958,-0.814,qval=0.5233,-1.483,qval=0.6373,FBgn0265084
+Lasp,FBgn0063485,3,TRUE,Baseline,"MechSD6,
+R23E10>ChR",-,"Peak=8, log2b=0.656",qval=0.2819,-0.661,-0.416,qval=0.1545,-1.292,qval=0.9534,FBgn0063485
+CG45086,FBgn0266487,3,FALSE,-,"MechSD3,
+MechSD6,
+MechSD12",-,"Peak=0, log2b=0.828, qval=0.1871",-0.562,-1.509,-0.696,qval=0.1922,qval=1.0,qval=1.0,FBgn0266487
+mt:ATPase8,FBgn0013673,3,FALSE,-,"MechSD3,
+MechSD6,
+MechSD12",-,"Peak=12, log2b=1.833, qval=0.6581",-1.347,-1.07,-0.889,qval=0.7753,-,-,FBgn0013673
+RhoGAP102A,FBgn0259216,2,FALSE,-,"R85C10>TrpA1,
+R23E10>ChR",-,"Peak=0, log2b=0.587, qval=0.1357",qval=0.18,qval=0.7317,qval=0.5004,-0.933,-0.748,qval=1.0,FBgn0259216
+kon,FBgn0032683,2,FALSE,-,"MechSD6,
+MechSD12",-,"Peak=0, log2b=0.938, qval=0.4037",-0.496,-0.565,-0.544,qval=0.9511,qval=0.3632,qval=1.0,FBgn0032683
+Lar,FBgn0000464,2,TRUE,Baseline,MechSD6,-,"Peak=0, log2b=0.508",-0.301,-0.546,-0.259,qval=0.3318,-0.282,qval=0.8822,FBgn0000464
+salm,FBgn0261648,2,TRUE,Baseline,MechSD6,-,"Peak=0, log2b=0.88",-0.414,-0.803,qval=0.1039,qval=0.185,qval=0.9497,qval=0.9777,FBgn0261648
+Ae2,FBgn0036043,2,TRUE,Baseline,MechSD6,-,"Peak=12, log2b=0.752",-0.243,-0.604,-0.197,qval=0.2204,-0.237,qval=0.2338,FBgn0036043
+CG10268,FBgn0032811,2,FALSE,-,"R85C10>TrpA1,
+R23E10>ChR",-,"Peak=4, log2b=0.796, qval=1.0",qval=0.929,qval=0.5174,qval=0.8781,-0.687,-0.734,qval=1.0,FBgn0032811
+CG46311,FBgn0284227,2,FALSE,-,"MechSD6,
+MechSD12",-,"Peak=4, log2b=NA, qval=0.2248",qval=0.4494,-5.747,-5.761,qval=0.626,-,-,FBgn0284227
+Top1,FBgn0004924,2,TRUE,Baseline,MechSD6,-,"Peak=0, log2b=0.51",-0.358,-0.583,-0.318,qval=0.9142,qval=0.7737,qval=0.8044,FBgn0004924
+GstD9,FBgn0038020,2,TRUE,Baseline,R85C10>TrpA1,-,"Peak=4, log2b=1.296",qval=0.9702,0.214,qval=0.7221,-0.542,qval=0.1982,qval=0.8822,FBgn0038020
+Ncc69,FBgn0036279,2,FALSE,-,"MechSD6,
+MechSD12",-,"Peak=20, log2b=0.875, qval=0.8774",qval=0.3861,-0.873,-0.605,qval=0.486,qval=1.0,qval=0.4656,FBgn0036279
+Ugt35A1,FBgn0026315,2,TRUE,Baseline,R23E10>ChR,-,"Peak=4, log2b=1.481",qval=0.3001,qval=0.7597,qval=0.6409,qval=0.749,-0.595,qval=0.8994,FBgn0026315
+norpA,FBgn0262738,2,FALSE,-,"MechSD6,
+R23E10>ChR",-,"Peak=12, log2b=0.813, qval=0.3723",qval=0.3192,-0.573,-0.333,qval=0.3976,-0.578,qval=1.0,FBgn0262738
+CG43066,FBgn0262476,2,TRUE,Baseline,MechSD6,-,"Peak=4, log2b=0.62",-0.278,-0.531,-0.178,qval=0.1685,-0.263,qval=0.7508,FBgn0262476
+Mmp1,FBgn0035049,2,TRUE,Baseline,R85C10>TrpA1,-,"Peak=12, log2b=1.053",qval=0.4183,qval=0.0784,qval=0.9301,-0.836,qval=1.0,qval=1.0,FBgn0035049
+gek,FBgn0023081,2,TRUE,Baseline,MechSD6,-,"Peak=0, log2b=0.57",-0.304,-0.554,-0.322,qval=0.8202,qval=1.0,qval=1.0,FBgn0023081
+Pif1A,FBgn0261015,2,TRUE,Baseline,MechSD6,-,"Peak=4, log2b=0.859",qval=0.2489,-1.105,-0.481,qval=0.058,qval=0.1696,qval=1.0,FBgn0261015
+rod,FBgn0003268,2,TRUE,Baseline,MechSD6,-,"Peak=8, log2b=0.668",qval=0.1171,-0.617,qval=0.7562,qval=0.7718,qval=1.0,qval=1.0,FBgn0003268
+Mnt,FBgn0023215,2,TRUE,Baseline,MechSD6,-,"Peak=12, log2b=0.653",-0.224,-0.544,qval=0.3653,0.476,qval=0.297,qval=0.8822,FBgn0023215
+stj,FBgn0261041,2,TRUE,Baseline,MechSD6,-,"Peak=0, log2b=0.548",-0.286,-0.559,-0.227,qval=0.6398,-0.37,qval=0.7485,FBgn0261041
+Achl,FBgn0033936,2,TRUE,Baseline,MechSD6,-,"Peak=20, log2b=5.087",qval=0.9236,-1.495,qval=0.2659,qval=0.4661,qval=0.4477,qval=1.0,FBgn0033936
+B4,FBgn0023407,2,FALSE,-,"MechSD6,
+R23E10>ChR",-,"Peak=0, log2b=0.325, qval=0.1425",-0.251,-0.566,-0.222,qval=0.4112,-0.546,qval=1.0,FBgn0023407
+stv,FBgn0086708,2,TRUE,Baseline,R85C10>TrpA1,-,"Peak=12, log2b=0.609",qval=0.8556,-0.289,qval=0.6711,-1.214,qval=0.9187,qval=0.9457,FBgn0086708
+pcx,FBgn0003048,2,TRUE,Baseline,MechSD6,-,"Peak=0, log2b=0.765",-0.369,-1,-0.432,qval=0.2605,qval=0.4598,qval=1.0,FBgn0003048
+Atpalpha,FBgn0002921,2,TRUE,Baseline,MechSD6,-,"Peak=0, log2b=0.506",-0.352,-0.664,-0.323,qval=0.1847,qval=0.0657,qval=0.8076,FBgn0002921
+haf,FBgn0261509,2,TRUE,Baseline,MechSD6,-,"Peak=4, log2b=0.564",-0.19,-0.621,qval=0.1919,0.424,qval=0.1783,qval=0.7275,FBgn0261509
+CG42260,FBgn0259145,2,FALSE,-,"MechSD6,
+R23E10>ChR",-,"Peak=4, log2b=0.726, qval=1.0",qval=0.7474,-0.659,-0.28,qval=0.0797,-0.509,qval=0.8722,FBgn0259145
+Dek,FBgn0026533,2,TRUE,Baseline,MechSD6,-,"Peak=8, log2b=0.686",-0.319,-0.604,-0.283,qval=0.8966,qval=0.9543,qval=0.7444,FBgn0026533
+msl-1,FBgn0005617,2,TRUE,Baseline,MechSD6,-,"Peak=0, log2b=0.601",-0.417,-0.637,-0.434,qval=0.6403,qval=0.8036,qval=0.4265,FBgn0005617
+CG33229,FBgn0053229,2,FALSE,-,"MechSD6,
+R23E10>ChR",-,"Peak=0, log2b=0.723, qval=0.1902",-0.458,-1.218,-0.496,qval=0.777,-0.543,qval=1.0,FBgn0053229
+Ac13E,FBgn0022710,2,TRUE,Baseline,MechSD6,-,"Peak=0, log2b=0.515",-0.271,-0.686,qval=0.0516,qval=0.4101,qval=0.1104,qval=0.8811,FBgn0022710
+CG43789,FBgn0264330,2,FALSE,-,"MechSD6,
+R23E10>ChR",-,"Peak=0, log2b=0.747, qval=0.2909",qval=0.2469,-1.354,qval=0.1897,qval=0.6646,-1.256,qval=1.0,FBgn0264330
+CG14186,FBgn0036935,2,TRUE,Baseline,R23E10>ChR,-,"Peak=12, log2b=0.884",0.462,0.408,0.371,qval=0.2319,-0.506,qval=0.7275,FBgn0036935
+CG13055,FBgn0036583,2,TRUE,Baseline,R85C10>TrpA1,-,"Peak=12, log2b=1.397",qval=0.8552,qval=0.8608,qval=0.3877,-0.955,qval=1.0,qval=1.0,FBgn0036583
+Dhc98D,FBgn0013813,2,TRUE,Baseline,MechSD6,-,"Peak=12, log2b=1.34",qval=0.537,-1.063,qval=0.6138,qval=0.5404,qval=0.4289,qval=1.0,FBgn0013813
+SERCA,FBgn0263006,2,TRUE,Baseline,MechSD6,-,"Peak=8, log2b=0.571",-0.244,-0.505,-0.324,qval=0.37,qval=0.8197,qval=0.2987,FBgn0263006
+CG34273,FBgn0085302,2,TRUE,Baseline,MechSD6,-,"Peak=8, log2b=1.05",qval=0.6655,-0.979,qval=0.9723,qval=0.9736,qval=1.0,qval=0.7275,FBgn0085302
+na,FBgn0002917,2,TRUE,Baseline,MechSD6,-,"Peak=0, log2b=0.507",-0.292,-0.524,-0.228,qval=0.4411,qval=0.1342,qval=0.6714,FBgn0002917
+Tie,FBgn0014073,2,FALSE,-,"MechSD6,
+R85C10>TrpA1",-,"Peak=12, log2b=3.048, qval=0.5169",qval=0.8808,-3.052,qval=0.9389,-2.235,qval=0.2155,qval=1.0,FBgn0014073
+kek3,FBgn0028370,2,TRUE,Baseline,MechSD6,-,"Peak=4, log2b=0.54",-0.198,-0.518,qval=0.126,qval=0.1914,qval=0.4016,qval=0.8822,FBgn0028370
+CG15877,FBgn0035337,2,TRUE,Baseline,R85C10>TrpA1,-,"Peak=0, log2b=0.51",qval=0.8461,qval=0.974,qval=0.8878,-0.872,qval=0.6527,qval=1.0,FBgn0035337
+CG9485,FBgn0034618,2,TRUE,Baseline,MechSD6,-,"Peak=4, log2b=0.641",qval=0.0951,-0.577,qval=0.3526,qval=0.5322,qval=0.3767,qval=0.8822,FBgn0034618
+l(3)80Fg,FBgn0287183,2,TRUE,Baseline,R23E10>ChR,-,"Peak=20, log2b=0.518",qval=0.8425,0.261,qval=0.62,qval=0.9173,-1.056,qval=1.0,FBgn0287183
+ush,FBgn0003963,2,FALSE,-,"MechSD3,
+MechSD6",-,"Peak=0, log2b=0.687, qval=0.3175",-0.501,-0.683,-0.377,qval=0.5553,qval=1.0,qval=1.0,FBgn0003963
+Fbp1,FBgn0000639,2,TRUE,Baseline,THIP,-,"Peak=16, log2b=3.534",-,-,-,-,qval=1.0,-4.287,FBgn0000639
+sas,FBgn0002306,2,FALSE,-,"MechSD6,
+R85C10>TrpA1",-,"Peak=12, log2b=4.174, qval=1.0",qval=0.906,-3.682,qval=0.3897,-3.4,qval=0.2803,qval=0.9113,FBgn0002306
+CG13054,FBgn0036584,2,TRUE,Baseline,R85C10>TrpA1,-,"Peak=12, log2b=1.196",qval=0.564,qval=0.8428,qval=0.6852,-1.923,qval=0.5745,qval=1.0,FBgn0036584
+Gyc76C,FBgn0266136,2,TRUE,Baseline,MechSD6,-,"Peak=4, log2b=1.257",qval=0.0668,-0.614,qval=0.3188,qval=0.1221,qval=0.6136,qval=1.0,FBgn0266136
+salr,FBgn0000287,2,TRUE,Baseline,MechSD6,-,"Peak=0, log2b=0.561",-0.253,-0.617,qval=0.0689,qval=0.0807,qval=0.5244,qval=0.7564,FBgn0000287
+CG15186,FBgn0037448,2,FALSE,-,"MechSD6,
+R85C10>TrpA1",-,"Peak=0, log2b=2.206, qval=1.0",qval=0.6796,-1.532,qval=0.0749,-1.146,qval=0.763,qval=0.4088,FBgn0037448
+CG43788,FBgn0264329,2,FALSE,-,"MechSD6,
+R23E10>ChR",-,"Peak=4, log2b=0.93, qval=0.1149",qval=0.4868,-0.888,qval=0.2778,qval=0.7385,-1.464,qval=1.0,FBgn0264329
+unc79,FBgn0038693,2,TRUE,Baseline,MechSD6,-,"Peak=0, log2b=0.503",-0.253,-0.643,-0.279,qval=0.3495,qval=0.5238,qval=0.5559,FBgn0038693
+Inx2,FBgn0027108,2,TRUE,Baseline,MechSD6,-,"Peak=0, log2b=1.349",-0.386,-0.583,-0.346,qval=0.5759,qval=0.8813,qval=1.0,FBgn0027108
+Lgr4,FBgn0085440,2,TRUE,Baseline,MechSD6,-,"Peak=0, log2b=0.729",qval=0.0669,-0.53,qval=0.3865,qval=0.5979,qval=0.8036,qval=0.89,FBgn0085440
+unc80,FBgn0039536,2,TRUE,Baseline,MechSD6,-,"Peak=4, log2b=0.523",-0.193,-0.67,-0.238,qval=0.5585,qval=0.3612,qval=0.9113,FBgn0039536
+ABCA,FBgn0031170,2,TRUE,Baseline,MechSD6,-,"Peak=4, log2b=0.527",-0.253,-0.592,-0.272,qval=0.093,-0.324,qval=1.0,FBgn0031170
+CG32846,FBgn0052846,2,TRUE,Baseline,MechSD6,-,"Peak=8, log2b=0.996",qval=0.1057,-1.354,qval=0.0831,qval=0.8472,qval=0.6136,qval=1.0,FBgn0052846
+Stlk,FBgn0046692,2,TRUE,Baseline,R23E10>ChR,-,"Peak=20, log2b=0.563",qval=0.387,0.498,qval=0.1397,qval=0.8056,-1.019,qval=1.0,FBgn0046692
+CG30428,FBgn0050428,2,TRUE,Baseline,MechSD6,-,"Peak=4, log2b=0.512",qval=0.0848,-0.903,qval=0.1028,qval=0.7453,qval=0.0982,qval=1.0,FBgn0050428
+wts,FBgn0011739,2,TRUE,Baseline,MechSD6,-,"Peak=12, log2b=0.576",-0.258,-0.565,qval=0.0797,qval=0.2109,qval=1.0,qval=0.7492,FBgn0011739
+LRP1,FBgn0053087,2,TRUE,Baseline,MechSD6,-,"Peak=4, log2b=0.537",-0.346,-0.671,-0.361,qval=0.2977,qval=0.9898,qval=0.8103,FBgn0053087
+clos,FBgn0261016,2,FALSE,-,"MechSD6,
+MechSD12",-,"Peak=0, log2b=0.774, qval=0.9349",qval=0.3857,-1.028,-1.055,qval=0.9583,qval=1.0,qval=1.0,FBgn0261016
+Sarm,FBgn0262579,2,TRUE,Baseline,MechSD6,-,"Peak=4, log2b=0.706",qval=0.6997,-0.519,qval=0.0716,-0.354,qval=0.645,qval=1.0,FBgn0262579
+crb,FBgn0259685,2,FALSE,-,"MechSD6,
+MechSD12",-,"Peak=0, log2b=1.311, qval=1.0",qval=0.3852,-0.697,-0.564,qval=0.6543,-0.289,qval=1.0,FBgn0259685
+CG3984,FBgn0038291,2,TRUE,Baseline,MechSD6,-,"Peak=0, log2b=0.523",-0.324,-0.69,-0.297,qval=0.9198,qval=0.6904,qval=0.5693,FBgn0038291
+CG3987,FBgn0038292,2,TRUE,Baseline,MechSD6,-,"Peak=8, log2b=0.568",qval=0.368,-0.713,qval=0.1734,qval=0.4956,qval=0.8337,qval=1.0,FBgn0038292
+zormin,FBgn0052311,2,TRUE,Baseline,MechSD6,-,"Peak=4, log2b=1.587",qval=0.9608,-0.521,qval=0.4715,qval=0.8224,qval=0.435,qval=0.708,FBgn0052311
+ctrip,FBgn0260794,2,TRUE,Baseline,MechSD6,-,"Peak=0, log2b=0.564",-0.255,-0.666,-0.269,qval=0.062,qval=0.087,qval=1.0,FBgn0260794
+Slik,FBgn0035001,2,TRUE,Baseline,MechSD6,-,"Peak=12, log2b=0.587",-0.196,-0.531,qval=0.1784,qval=0.4463,qval=0.3459,qval=1.0,FBgn0035001
+Nepl15,FBgn0039024,2,FALSE,-,"MechSD6,
+R85C10>TrpA1",-,"Peak=0, log2b=2.908, qval=1.0",qval=0.9969,-1.631,qval=0.266,-2.475,qval=0.9309,qval=0.5117,FBgn0039024
+Hr38,FBgn0014859,2,FALSE,-,"R85C10>TrpA1,
+R23E10>ChR",-,"Peak=8, log2b=0.964, qval=0.0799",qval=0.7293,qval=0.898,qval=0.7799,-1.583,-0.795,qval=0.4209,FBgn0014859
+rno,FBgn0035106,2,TRUE,Baseline,MechSD6,-,"Peak=0, log2b=0.733",-0.403,-0.902,-0.412,qval=0.3177,qval=0.4077,qval=1.0,FBgn0035106
+CG33234,FBgn0053234,2,FALSE,-,"MechSD6,
+MechSD12",-,"Peak=0, log2b=0.995, qval=0.0647",-0.45,-1.724,-0.713,qval=0.9059,qval=0.4286,qval=0.7716,FBgn0053234
+CG46307,FBgn0284223,2,FALSE,-,"MechSD3,
+MechSD6",-,"Peak=0, log2b=1.14, qval=0.4354",-0.527,-1.683,qval=0.2802,qval=0.605,-,-,FBgn0284223
+ZnT33D,FBgn0051860,2,FALSE,-,"MechSD3,
+MechSD6",-,"Peak=8, log2b=0.679, qval=0.2449",-0.521,-1.025,-0.372,qval=0.637,qval=0.4646,qval=1.0,FBgn0051860
+trx,FBgn0003862,2,TRUE,Baseline,MechSD6,-,"Peak=0, log2b=0.651",-0.415,-0.773,-0.347,qval=0.1809,qval=0.0603,qval=1.0,FBgn0003862
+CG42392,FBgn0259738,2,FALSE,-,"MechSD6,
+R23E10>ChR",-,"Peak=4, log2b=0.825, qval=0.1508",qval=0.4096,-1.847,qval=0.2919,qval=0.4683,-1.082,qval=0.8036,FBgn0259738
+CG13658,FBgn0039315,2,FALSE,-,"MechSD3,
+MechSD6",-,"Peak=4, log2b=1.486, qval=0.3576",-0.786,-1.457,qval=0.2971,qval=0.1959,qval=0.7478,qval=1.0,FBgn0039315
+shakB,FBgn0085387,2,FALSE,-,"MechSD6,
+R23E10>ChR",-,"Peak=8, log2b=0.647, qval=0.4115",qval=0.1451,-0.605,-0.322,qval=0.4123,-0.664,qval=1.0,FBgn0085387
+gol,FBgn0004919,2,TRUE,Baseline,R23E10>ChR,-,"Peak=12, log2b=0.733",qval=0.5574,-0.263,qval=0.2215,qval=0.3658,-0.523,qval=0.9889,FBgn0004919
+Zasp67,FBgn0036044,2,FALSE,-,"MechSD6,
+MechSD12",-,"Peak=12, log2b=0.909, qval=0.1199",qval=0.1628,-1.156,-0.5,qval=0.8361,qval=0.9627,qval=1.0,FBgn0036044
+stan,FBgn0024836,2,TRUE,Baseline,MechSD6,-,"Peak=0, log2b=0.669",-0.38,-0.869,-0.374,qval=0.2421,-0.414,qval=1.0,FBgn0024836
+esc,FBgn0000588,2,FALSE,-,"MechSD6,
+R23E10>ChR",-,"Peak=4, log2b=0.828, qval=0.574",qval=0.7472,-1.605,qval=0.0776,qval=0.356,-0.764,qval=1.0,FBgn0000588
+CG11407,FBgn0038733,2,TRUE,Baseline,MechSD3,-,"Peak=20, log2b=3.717",-0.579,qval=0.2676,qval=0.593,qval=0.4371,qval=0.6707,qval=1.0,FBgn0038733
+CG42588,FBgn0260965,2,FALSE,-,"MechSD6,
+R23E10>ChR",-,"Peak=0, log2b=0.587, qval=0.2449",-0.43,-0.624,qval=0.2215,qval=0.4197,-0.629,qval=1.0,FBgn0260965
+CG11319,FBgn0031835,2,FALSE,-,"MechSD6,
+R23E10>ChR",-,"Peak=0, log2b=0.446, qval=0.1546",-0.267,-0.59,-0.227,qval=0.1087,-0.512,qval=0.7275,FBgn0031835
+orb,FBgn0004882,2,FALSE,-,"MechSD6,
+R23E10>ChR",-,"Peak=4, log2b=0.396, qval=0.4432",qval=0.1167,-0.535,qval=0.3262,qval=0.3913,-0.756,qval=0.7613,FBgn0004882
+kug,FBgn0261574,2,TRUE,Baseline,MechSD6,-,"Peak=0, log2b=0.649",-0.367,-0.789,-0.346,qval=0.0755,-0.429,qval=1.0,FBgn0261574
+Ir62a,FBgn0053971,2,FALSE,-,"MechSD6,
+MechSD12",-,"Peak=0, log2b=0.721, qval=0.5894",qval=0.1324,-1.073,-0.538,qval=0.3711,qval=0.0595,qval=0.5228,FBgn0053971
+RhoGEF2,FBgn0023172,2,TRUE,Baseline,MechSD6,-,"Peak=12, log2b=0.638",-0.325,-0.591,-0.327,qval=0.8056,qval=0.791,qval=0.9842,FBgn0023172
+cic,FBgn0262582,2,TRUE,Baseline,MechSD6,-,"Peak=12, log2b=0.733",-0.293,-0.792,-0.312,qval=0.1954,qval=0.0521,qval=0.8804,FBgn0262582
+zip,FBgn0287873,2,TRUE,Baseline,MechSD6,-,"Peak=12, log2b=0.576",-0.227,-0.573,-0.252,qval=0.9445,qval=1.0,qval=0.9144,FBgn0287873
+nrm,FBgn0262509,2,FALSE,-,"MechSD6,
+R23E10>ChR",-,"Peak=0, log2b=0.43, qval=0.8597",-0.318,-0.648,-0.23,qval=0.2639,-0.72,qval=0.7773,FBgn0262509
+CG43367,FBgn0263110,2,TRUE,Baseline,MechSD6,-,"Peak=0, log2b=0.529",-0.309,-0.733,-0.302,qval=0.865,-0.331,qval=0.7275,FBgn0263110
+CG11374,FBgn0031214,2,FALSE,-,"MechSD6,
+R23E10>ChR",-,"Peak=0, log2b=1.236, qval=1.0",qval=0.5714,-0.817,qval=0.64,qval=0.9253,-1.17,qval=1.0,FBgn0031214
+chif,FBgn0000307,2,TRUE,Baseline,MechSD6,-,"Peak=0, log2b=0.559",-0.35,-0.783,-0.366,qval=0.5163,qval=1.0,qval=1.0,FBgn0000307
+elav,FBgn0260400,2,FALSE,-,"MechSD6,
+R23E10>ChR",-,"Peak=16, log2b=0.52, qval=0.6692",-0.24,-0.711,-0.328,qval=0.7088,-0.583,qval=0.74,FBgn0260400
+unc-13,FBgn0025726,2,FALSE,-,"MechSD6,
+R23E10>ChR",-,"Peak=0, log2b=0.542, qval=0.3921",-0.365,-0.757,-0.306,qval=0.8357,-0.545,qval=0.9323,FBgn0025726
+MFS17,FBgn0058263,2,TRUE,Baseline,R23E10>ChR,-,"Peak=20, log2b=0.542",qval=0.6474,0.237,qval=0.609,qval=0.8267,-0.868,qval=1.0,FBgn0058263
+CG43078,FBgn0262508,2,TRUE,Baseline,MechSD6,-,"Peak=0, log2b=0.608",-0.368,-0.981,qval=0.2551,0.429,qval=0.3175,qval=1.0,FBgn0262508
+bma,FBgn0085385,2,FALSE,-,"MechSD6,
+R23E10>ChR",-,"Peak=4, log2b=1.423, qval=0.4246",qval=0.3809,-1.849,qval=0.2184,qval=0.2421,-0.69,qval=0.5611,FBgn0085385
+CG31199,FBgn0051199,2,FALSE,-,"MechSD6,
+MechSD12",-,"Peak=0, log2b=0.982, qval=0.3222",qval=0.0551,-1.898,-0.564,qval=0.374,qval=0.5612,qval=0.4635,FBgn0051199
+CG9902,FBgn0030757,2,FALSE,-,"MechSD3,
+MechSD6",-,"Peak=16, log2b=0.652, qval=0.8912",-0.516,-0.663,qval=0.154,qval=0.6546,qval=0.7157,qval=1.0,FBgn0030757
+SpdS,FBgn0037723,2,TRUE,Baseline,R85C10>TrpA1,-,"Peak=20, log2b=0.955",0.395,0.37,qval=0.3476,-0.613,qval=0.1863,qval=0.0535,FBgn0037723
+scf,FBgn0025682,2,TRUE,Baseline,R85C10>TrpA1,-,"Peak=12, log2b=0.623",0.264,qval=0.793,qval=0.9822,-0.673,qval=0.3888,qval=0.9976,FBgn0025682
+lectin-46Ca,FBgn0040093,2,TRUE,Baseline,MechSD6,-,"Peak=12, log2b=0.829",qval=0.3438,-0.918,qval=0.6805,qval=0.9463,qval=0.6136,qval=1.0,FBgn0040093
+Hipk,FBgn0035142,2,FALSE,-,"MechSD6,
+R23E10>ChR",-,"Peak=0, log2b=0.52, qval=0.1763",-0.252,-0.567,-0.276,qval=0.233,-0.503,qval=1.0,FBgn0035142
+CG5937,FBgn0029834,2,TRUE,Baseline,MechSD6,-,"Peak=0, log2b=0.631",-0.303,-0.7,-0.32,0.347,qval=0.0725,qval=0.8822,FBgn0029834
+CG15099,FBgn0034400,2,TRUE,Baseline,MechSD6,-,"Peak=0, log2b=0.523",-0.211,-0.748,-0.273,qval=0.2013,qval=0.1204,qval=1.0,FBgn0034400
+rhea,FBgn0260442,2,TRUE,Baseline,MechSD6,-,"Peak=4, log2b=0.516",-0.227,-0.529,-0.254,qval=0.3235,qval=0.2291,qval=0.9027,FBgn0260442
+NetB,FBgn0015774,2,FALSE,-,"MechSD6,
+R23E10>ChR",-,"Peak=0, log2b=0.623, qval=0.0966",-0.291,-0.613,-0.243,0.37,-0.585,qval=0.9297,FBgn0015774
+CG16825,FBgn0032503,2,FALSE,-,"MechSD3,
+MechSD6",-,"Peak=12, log2b=0.84, qval=1.0",-0.513,-1.116,qval=0.6014,qval=0.364,qval=0.636,qval=1.0,FBgn0032503
+Dscam3,FBgn0261046,2,TRUE,Baseline,MechSD6,-,"Peak=12, log2b=0.717",-0.18,-0.536,-0.2,qval=0.0807,qval=0.13,qval=0.9411,FBgn0261046
+Jarid2,FBgn0036004,2,TRUE,Baseline,MechSD6,-,"Peak=0, log2b=0.608",-0.251,-0.691,-0.347,qval=0.2321,qval=0.9864,qval=0.8754,FBgn0036004
+mv,FBgn0288310,2,TRUE,Baseline,MechSD6,-,"Peak=0, log2b=0.67",qval=0.2516,-0.852,-0.363,qval=0.3533,qval=0.8084,qval=1.0,FBgn0288310
+CG46319,FBgn0284235,2,TRUE,Baseline,MechSD6,-,"Peak=4, log2b=0.803",qval=0.3211,-0.911,qval=0.1328,qval=0.364,-,-,FBgn0284235
+para,FBgn0285944,2,FALSE,-,"MechSD6,
+R23E10>ChR",-,"Peak=0, log2b=0.624, qval=0.3222",-0.374,-0.567,-0.186,qval=0.823,-0.606,qval=1.0,FBgn0285944
+CG34384,FBgn0085413,2,TRUE,Baseline,MechSD6,-,"Peak=0, log2b=0.513",-0.341,-0.591,-0.271,qval=0.3462,qval=0.3,qval=0.708,FBgn0085413
+NaCP60E,FBgn0085434,2,FALSE,-,"MechSD6,
+R23E10>ChR",-,"Peak=8, log2b=0.647, qval=0.173",-0.316,-0.794,-0.297,qval=0.3105,-0.579,qval=0.8836,FBgn0085434
+CG32333,FBgn0052333,2,TRUE,Baseline,MechSD6,-,"Peak=4, log2b=0.575",-0.199,-0.637,qval=0.382,qval=0.2089,qval=0.3372,qval=0.5127,FBgn0052333
+kek2,FBgn0015400,2,TRUE,Baseline,MechSD6,-,"Peak=0, log2b=0.607",-0.231,-0.547,-0.214,qval=0.1643,qval=0.1789,qval=1.0,FBgn0015400
+CG30069,FBgn0050069,2,TRUE,Baseline,MechSD6,-,"Peak=4, log2b=1.497",qval=0.7742,-0.917,qval=0.0648,qval=0.5484,qval=0.1925,qval=0.6286,FBgn0050069
+CG3638,FBgn0261444,2,TRUE,Baseline,MechSD6,-,"Peak=4, log2b=0.638",-0.194,-0.574,qval=0.1041,0.336,qval=0.0646,qval=0.9161,FBgn0261444
+MESR4,FBgn0034240,2,TRUE,Baseline,MechSD6,-,"Peak=0, log2b=0.602",-0.32,-0.721,qval=0.134,qval=0.352,qval=0.9365,qval=1.0,FBgn0034240
+Mur2B,FBgn0025390,2,FALSE,-,"MechSD3,
+MechSD6",-,"Peak=4, log2b=0.803, qval=0.4246",-0.516,-0.74,qval=0.0575,qval=0.5664,qval=0.6966,qval=0.2621,FBgn0025390
+CG16779,FBgn0037698,2,FALSE,-,"MechSD6,
+R23E10>ChR",-,"Peak=8, log2b=0.534, qval=1.0",qval=0.0599,-0.505,qval=0.9749,qval=0.2972,-0.607,qval=0.6445,FBgn0037698
+su(sable),FBgn0003575,2,TRUE,Baseline,MechSD6,-,"Peak=16, log2b=0.576",-0.221,-0.54,qval=0.2706,qval=0.653,-,-,FBgn0003575
+O-fut1,FBgn0033901,2,TRUE,Baseline,R23E10>ChR,-,"Peak=4, log2b=0.747",qval=0.1325,qval=0.5957,qval=0.851,qval=0.6927,-0.511,qval=0.9665,FBgn0033901
+Dop1R1,FBgn0011582,2,FALSE,-,"MechSD6,
+R23E10>ChR",-,"Peak=16, log2b=0.352, qval=1.0",-0.274,-0.632,-0.288,qval=0.151,-0.776,qval=1.0,FBgn0011582
+CG8677,FBgn0026577,2,TRUE,Baseline,MechSD6,-,"Peak=0, log2b=0.778",-0.409,-0.859,-0.393,qval=0.5495,qval=0.6129,qval=1.0,FBgn0026577
+CG17816,FBgn0037525,2,FALSE,-,"MechSD6,
+R23E10>ChR",-,"Peak=0, log2b=0.437, qval=0.3742",-0.273,-0.581,-0.269,qval=0.598,-0.538,qval=0.6286,FBgn0037525
+gw,FBgn0051992,2,FALSE,-,"MechSD6,
+MechSD12",-,"Peak=0, log2b=0.81, qval=0.129",-0.46,-1.178,-0.529,qval=0.3197,-0.383,qval=1.0,FBgn0051992
+CG8958,FBgn0030725,2,TRUE,Baseline,MechSD6,-,"Peak=4, log2b=1.088",qval=0.1644,-1.079,qval=0.2439,qval=0.7872,qval=0.8143,qval=1.0,FBgn0030725
+RhoGAP100F,FBgn0039883,2,FALSE,-,"MechSD6,
+R23E10>ChR",-,"Peak=8, log2b=0.545, qval=0.5011",-0.291,-0.581,-0.191,qval=0.3769,-0.596,qval=1.0,FBgn0039883
+Dgk,FBgn0085390,2,TRUE,Baseline,MechSD6,-,"Peak=4, log2b=0.638",-0.139,-0.621,-0.189,0.49,-0.289,qval=0.3116,FBgn0085390
+CG6845,FBgn0035099,2,TRUE,Baseline,R23E10>ChR,-,"Peak=16, log2b=1.028",qval=0.9859,qval=0.9901,qval=0.7528,qval=0.849,-0.503,qval=0.8036,FBgn0035099
