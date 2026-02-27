@@ -12,7 +12,7 @@ from suds.client import Client
 import ProcessGOresults as process
 
 ROOT = Path(__file__).resolve().parent
-MAPPINGS_PATH = ROOT / "Data" / "fb_synonym_fb_2024_06.tsv"
+MAPPINGS_PATH = ROOT / "Data" / "GO-Term_Category-Mapping_Example1.xlsx"
 DAVID_WSDL = "https://davidbioinformatics.nih.gov/webservice/services/DAVIDWebService?wsdl"
 DAVID_ENDPOINT = (
     "https://davidbioinformatics.nih.gov/webservice/services/"
@@ -118,7 +118,10 @@ def main():
 
     if not MAPPINGS_PATH.exists():
         raise FileNotFoundError(f"Required mapping file not found: {MAPPINGS_PATH}")
-    mappings_df = pd.read_csv(MAPPINGS_PATH, sep="\t", header=0, low_memory=False)
+    if MAPPINGS_PATH.suffix.lower() in {".xlsx", ".xls"}:
+        mappings_df = pd.read_excel(MAPPINGS_PATH, header=0, dtype=str)
+    else:
+        mappings_df = pd.read_csv(MAPPINGS_PATH, sep="\t", header=0, low_memory=False, dtype=str)
 
     data_files = sorted(input_dir.glob("*.csv")) + sorted(input_dir.glob("*.xlsx"))
     client = init_david_client(args.david_email)
