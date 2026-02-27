@@ -2,7 +2,7 @@
 import argparse, pathlib, re, math
 import numpy as np, pandas as pd, matplotlib.pyplot as plt
 import matplotlib.cm as cm
-from matplotlib.colors import to_rgb, LinearSegmentedColormap
+from matplotlib.colors import to_rgb, to_hex, LinearSegmentedColormap
 from mpl_toolkits.axes_grid1.inset_locator import inset_axes
 from matplotlib.colorbar import ColorbarBase
 import matplotlib.patheffects as pe
@@ -11,8 +11,8 @@ from matplotlib.patches import FancyBboxPatch
 
 # ────────────────────────── tweakables ──────────────────────────
 ROOT = pathlib.Path(__file__).resolve().parent
-CAT_FILE = ROOT / "Data" / "GO-Term_categories.xlsx"
-CLUSTER_FILE = ROOT / "Data" / "CSW_7datasets" / "CSW_7datasets_AllTerms_Mapped.xlsx"
+CAT_FILE = ROOT / "Data" / "GO-Term_Category-Mapping.xlsx"
+CLUSTER_FILE = ROOT / "Data" / "GO-Term_Category-Mapping.xlsx"
 
 TOP_N, MAX_ROWS = 1000, 100000
 MAX_TERMS_PER_PLOT = 15  # Maximum terms per plot before splitting
@@ -23,14 +23,88 @@ TEXT_OUTLINE = [pe.withStroke(linewidth=3, foreground="white")]
 MIN_LEGEND_HEIGHT = 6.0
 # ────────────────────────────────────────────────────────────────
 
-# ─── keyword & colour table ─────────────────────────────────────
-cat_df = pd.read_excel(CAT_FILE)
-cat_df["Keywords"] = cat_df["Keywords"].str.split(",").apply(
-    lambda L: [k.strip().lower() for k in L])
-GROUPS = cat_df["Group"].tolist()
-GROUP2KW   = dict(zip(GROUPS, cat_df["Keywords"]))
-GROUP2HEX  = dict(zip(GROUPS, cat_df["Hexcode"]))
-GROUP2LABEL= {g: g for g in GROUPS}
+# ─── category mapping table ──────────────────────────────────────
+pretty = lambda s: re.sub(r'^.*?:', '', s).split('~')[-1].strip()
+darken = lambda h,f: tuple(np.array(to_rgb(h))*f)
+
+def _load_category_mapping(path):
+    if not path.exists():
+        raise FileNotFoundError(f"Category mapping file not found: {path}")
+
+    raw = pd.read_excel(path, sheet_name=None)
+    cat_df = pd.concat(raw.values(), ignore_index=True) if isinstance(raw, dict) else raw
+    cat_df = cat_df.rename(columns=lambda c: str(c).strip())
+    cols = {c.lower().strip().replace("_", " "): c for c in cat_df.columns}
+
+    # Legacy format support:
+    #   Keywords, Group, Hexcode
+    if "keywords" in cols and "group" in cols:
+        group_col = cols["group"]
+        kw_col = cols["keywords"]
+        hex_col = cols.get("hexcode")
+
+        subset = cat_df[[group_col, kw_col]].copy()
+        subset.columns = ["Group", "Keywords"]
+        subset["Group"] = subset["Group"].astype(str).str.strip()
+        subset["Keywords"] = subset["Keywords"].fillna("").astype(str)
+        subset = subset[subset["Group"] != ""]
+        subset = subset.drop_duplicates(subset=["Group"], keep="first")
+
+        groups = subset["Group"].tolist()
+        group2kw = {
+            row["Group"]: [k.strip().lower() for k in row["Keywords"].split(",") if k.strip()]
+            for _, row in subset.iterrows()
+        }
+
+        if hex_col is not None:
+            hex_lookup = (
+                cat_df[[group_col, hex_col]]
+                .dropna(subset=[group_col, hex_col])
+                .drop_duplicates(subset=[group_col], keep="first")
+            )
+            group2hex = {str(g).strip(): str(h).strip() for g, h in zip(hex_lookup[group_col], hex_lookup[hex_col])}
+        else:
+            cmap = plt.get_cmap("tab20")
+            group2hex = {g: to_hex(cmap(i % cmap.N)) for i, g in enumerate(groups)}
+
+        group2label = {g: g for g in groups}
+        return groups, group2kw, group2hex, group2label, {}
+
+    # New default format support:
+    #   Term/GO_Term, GO_Category, Broad_Category
+    if "broad category" in cols and ("go term" in cols or "term" in cols):
+        group_col = cols["broad category"]
+        term_col = cols.get("go term", cols.get("term"))
+
+        subset = cat_df[[term_col, group_col]].copy()
+        subset.columns = ["Term", "Group"]
+        subset["Term"] = subset["Term"].astype(str).str.strip()
+        subset["Group"] = subset["Group"].astype(str).str.strip()
+        subset = subset[(subset["Term"] != "") & (subset["Group"] != "")]
+
+        term_to_group = {}
+        for _, row in subset.iterrows():
+            term_key = pretty(row["Term"]).strip().lower()
+            if term_key and term_key not in term_to_group:
+                term_to_group[term_key] = row["Group"]
+
+        groups = list(dict.fromkeys(subset["Group"].tolist()))
+        group2kw = {g: [] for g in groups}
+        for _, row in subset.iterrows():
+            kw = pretty(row["Term"]).strip().lower()
+            if kw and kw not in group2kw[row["Group"]]:
+                group2kw[row["Group"]].append(kw)
+
+        cmap = plt.get_cmap("tab20")
+        group2hex = {g: to_hex(cmap(i % cmap.N)) for i, g in enumerate(groups)}
+        group2label = {g: g for g in groups}
+        return groups, group2kw, group2hex, group2label, term_to_group
+
+    raise ValueError(
+        f"Unsupported category mapping columns in {path.name}: {list(cat_df.columns)}"
+    )
+
+GROUPS, GROUP2KW, GROUP2HEX, GROUP2LABEL, TERM2GROUP = _load_category_mapping(CAT_FILE)
 ASPECT_HEX = {
     "Biological Process":   "#1f77b4",  # blue
     "Molecular Function":   "#ff7f0e",  # orange
@@ -102,10 +176,20 @@ def add_content_box(ax, artists, *, pad_x=0.02, pad_y=0.012, min_w=0.30, min_h=0
     ax.add_patch(patch)
     return patch
 
-assign_group = lambda term: next((g for g,kws in GROUP2KW.items()
-                                  if any(k in term.lower() for k in kws)),None)
-pretty = lambda s: re.sub(r'^.*?:', '', s).split('~')[-1].strip()
-darken = lambda h,f: tuple(np.array(to_rgb(h))*f)
+def assign_group(term):
+    if pd.isna(term):
+        return None
+    term_text = str(term)
+    term_key = pretty(term_text).strip().lower()
+
+    if term_key in TERM2GROUP:
+        return TERM2GROUP[term_key]
+
+    term_lower = term_text.lower()
+    return next(
+        (g for g, kws in GROUP2KW.items() if any(k and k in term_lower for k in kws)),
+        None,
+    )
 
 # ─── Cluster Assignment & Hierarchical Packing ──────────────────
 class ClusterAssigner:

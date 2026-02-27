@@ -9,10 +9,8 @@ Standalone GO analysis + visualization workflow for Drosophila gene sets.
 
 ## Included runtime data
 - `Data/fb_synonym_fb_2024_06.tsv`
-- `Data/GO-Term_categories.xlsx`
-- `Data/CSW_7datasets/CSW_7datasets_AllTerms_Mapped.xlsx` (default mapping used by `--by_GO`)
-- `Data/Shiju-Corr-GO-022726/GO-Term_Category-Mapping.xlsx`
-- `Data/Shiju-Corr-GO-022726/GO-Term_Category-Mapping_Corr_Sets.xlsx`
+- `Data/GO-Term_Category-Mapping.xlsx` (default category/mapping file)
+- `Data/GO-Term_Category-Mapping_Corr_Sets.xlsx` (alternate mapping file for correlation sets)
 - `Data/GO-TEST/*.csv` (test gene sets)
 
 ## Requirements
