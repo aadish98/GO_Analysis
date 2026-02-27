@@ -1,6 +1,6 @@
 # GO_Analysis
 
-Standalone GO analysis + visualization workflow for Drosophila gene sets.
+Standalone functional enrichment analysis + visualization workflow for Drosophila gene sets.
 
 ## Included scripts
 - `GenerateGOChartReport.py`: runs DAVID GO enrichment on all CSV/XLSX files in an input folder and writes GO output tables.
@@ -16,6 +16,7 @@ Standalone GO analysis + visualization workflow for Drosophila gene sets.
 - Python 3.10+
 - Python packages: `pandas`, `numpy`, `matplotlib`, `openpyxl`, `suds`
 - DAVID web service access with a registered email
+- DAVID (NIH) functional annotation resource: https://davidbioinformatics.nih.gov/
 
 ## Quick start
 From the repo root:
